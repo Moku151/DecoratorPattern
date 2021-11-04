@@ -1,4 +1,5 @@
-﻿using CoffeeShop.Interfaces;
+﻿using CoffeeShop.Beverages;
+using CoffeeShop.Beverages.Interfaces;
 
 namespace CoffeeShop.Condiments
 {

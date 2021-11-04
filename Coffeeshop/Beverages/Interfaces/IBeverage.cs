@@ -1,4 +1,4 @@
-﻿namespace CoffeeShop.Interfaces
+﻿namespace CoffeeShop.Beverages.Interfaces
 {
     internal interface IBeverage
     {
