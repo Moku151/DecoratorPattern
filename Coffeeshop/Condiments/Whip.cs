@@ -1,10 +1,10 @@
-﻿using CoffeeShop.AbstractClasses;
+﻿using CoffeeShop.Interfaces;
 
 namespace CoffeeShop.Condiments
 {
-    internal class Whip : Condiment
+    internal class Whip : CondimentBase
     {
-        public Whip(Beverage beverage) : base(beverage) { }
+        public Whip(IBeverage beverage) : base(beverage) { }
 
         public override string GetDescription()
         {

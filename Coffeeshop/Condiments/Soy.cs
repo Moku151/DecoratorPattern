@@ -1,10 +1,10 @@
-﻿using CoffeeShop.AbstractClasses;
+﻿using CoffeeShop.Interfaces;
 
 namespace CoffeeShop.Condiments
 {
-    internal class Soy : Condiment
+    internal class Soy : CondimentBase
     {
-        public Soy(Beverage beverage) : base(beverage) { }
+        public Soy(IBeverage beverage) : base(beverage) { }
 
         public override string GetDescription()
         {

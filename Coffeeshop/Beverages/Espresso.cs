@@ -1,15 +1,15 @@
-﻿using CoffeeShop.AbstractClasses;
+﻿using CoffeeShop.Interfaces;
 
 namespace CoffeeShop.Beverages
 {
-    internal class Espresso : Beverage
+    internal class Espresso : IBeverage
     {
-        public override string GetDescription()
+        public string GetDescription()
         {
             return "Espresso";
         }
 
-        public override float Cost()
+        public float Cost()
         {
             return 1.99f;
         }
